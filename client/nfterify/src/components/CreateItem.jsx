@@ -67,7 +67,7 @@ function CreateItem() {
       sizes: sizes,
     });
     console.log(xSmall, small, medium, large, xLarge);
-    history.push('/dashboard');
+    history.push('/');
   };
 
   return (
@@ -85,7 +85,7 @@ function CreateItem() {
       </div>
 
       <div>
-        <Link to={'/dashboard'}>
+        <Link to={''}>
           {' '}
           <FaArrowCircleLeft size={40} />{' '}
         </Link>

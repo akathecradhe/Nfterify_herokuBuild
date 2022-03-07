@@ -25,10 +25,6 @@ function App() {
           <Login />
         </Route>
 
-        <Route path="/">
-          <Login />
-        </Route>
-
         <PrivateRoute exact path="/ListItems">
           <ListItems />
         </PrivateRoute>
@@ -37,7 +33,7 @@ function App() {
           <CreateItem />
         </PrivateRoute>
 
-        <PrivateRoute exact path="/dashboard">
+        <PrivateRoute exact path="/">
           <Content />
         </PrivateRoute>
 
