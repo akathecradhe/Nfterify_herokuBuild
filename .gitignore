@@ -1,3 +1,9 @@
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
 # Logs
 logs
 *.log
@@ -40,6 +46,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+client/nfterify/node_modules
+
+
 
 # TypeScript v1 declaration files
 typings/
