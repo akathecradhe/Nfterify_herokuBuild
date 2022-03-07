@@ -30,7 +30,7 @@ const RegisterUser = () => {
       .then((response) => {
         itoken = response.data;
         setToken(itoken);
-        history.push('/dashboard');
+        history.push('/');
       })
       .catch((error) => {
         console.log(error);
